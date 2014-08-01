@@ -47,25 +47,25 @@ for i in $(seq 1 200) ; do
 max1=$((RANDOM%3))
 max=$(($lines-$max1))
 declare -a char1
-char1=(`~/matrix/matrix_char.sh`)
+char1=(`~/thematrixbash/matrix_char.sh`)
 declare -a char2
-char2=(`~/matrix/matrix_char.sh`)
+char2=(`~/thematrixbash/matrix_char.sh`)
 declare -a char3
-char3=(`~/matrix/matrix_char.sh`)
+char3=(`~/thematrixbash/matrix_char.sh`)
 declare -a char4
-char4=(`~/matrix/matrix_char.sh`)
+char4=(`~/thematrixbash/matrix_char.sh`)
 declare -a char5
-char5=(`~/matrix/matrix_char.sh`)
+char5=(`~/thematrixbash/matrix_char.sh`)
 declare -a char6
-char6=(`~/matrix/matrix_char.sh`)
+char6=(`~/thematrixbash/matrix_char.sh`)
 declare -a char7
-char7=(`~/matrix/matrix_char.sh`)
+char7=(`~/thematrixbash/matrix_char.sh`)
 declare -a char8
-char8=(`~/matrix/matrix_char.sh`)
+char8=(`~/thematrixbash/matrix_char.sh`)
 declare -a char9
-char9=(`~/matrix/matrix_char.sh`)
+char9=(`~/thematrixbash/matrix_char.sh`)
 declare -a char10
-char10=(`~/matrix/matrix_char.sh`)
+char10=(`~/thematrixbash/matrix_char.sh`)
 
 l=$((RANDOM%$lines))
 l2=$((RANDOM%$lines))
